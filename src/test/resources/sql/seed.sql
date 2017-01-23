@@ -1,0 +1,6 @@
+use blackjacktest;
+
+set FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE games;
+TRUNCATE TABLE users;
+set FOREIGN_KEY_CHECKS = 1;
